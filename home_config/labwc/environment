@@ -1,0 +1,2 @@
+XKB_DEFAULT_LAYOUT=us,fr
+XKB_DEFAULT_OPTIONS=grp:ctrl_space_toggle

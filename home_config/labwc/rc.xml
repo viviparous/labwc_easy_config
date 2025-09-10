@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+
+<!--
+  This is a very simple config file with many options missing. For a complete
+  set of options with comments, see docs/rc.xml.all
+
+zmsg 
+The present configuration file references the theme z::zox1 .
+
+General reference:
+
+https://github.com/labwc/labwc/blob/master/docs/rc.xml.all
+
+ copied from 
+/usr/share/doc/labwc/rc.xml
+
+-->
+
+<labwc_config>
+
+  <theme>
+	  
+<!-- ~/.config/labwc/rc.xml ;; ~/.local/share/themes/<theme> -->	  
+<!--    <name>Arrondie-Grey</name> -->
+<!--    <name>zowhat2</name> -->
+    <name>zox1</name>
+
+    <cornerRadius>8</cornerRadius>
+    <keepBorder>yes</keepBorder>
+    <font name="sans" size="10" />
+  </theme>
+
+<!-- desktop pager settings -->
+
+ <windowSwitcher show="yes" preview="yes" outlines="yes" allWorkspaces="yes">
+  <fields>
+  <field content="type" width="25%" />
+  <field content="trimmed_identifier" width="25%" />
+  <field content="title" width="50%" />
+  </fields>
+ </windowSwitcher>
+
+ <desktops>
+      <number>3</number>
+      <prefix>ws</prefix>
+</desktops>
+
+
+
+  <keyboard>
+    <default />
+    <!-- Use a different terminal emulator -->
+    <keybind key="W-Return">
+      <action name="Execute" command="foot" />
+    </keybind>
+
+    <keybind key="C-A-Left">
+      <action name="GoToDesktop" to="left" wrap="yes"/>
+    </keybind>
+    <keybind key="C-A-Right">
+      <action name="GoToDesktop" to="right" wrap="yes"/>
+    </keybind>
+
+    <!--
+      Remove a previously defined keybind
+      A shorter alternative is <keybind key="W-F4" />
+    -->
+    <keybind key="W-F4">
+      <action name="None" />
+    </keybind>
+  </keyboard>
+
+  <mouse>
+    <default />
+    <!-- Show a custom menu on desktop right click -->
+    <context name="Root">
+      <mousebind button="Right" action="Press">
+        <action name="ShowMenu" menu="some-custom-menu" />
+      </mousebind>
+    </context>
+
+
+
+    <context name="TitleBar">
+      <mousebind button="Left" action="Press">
+        <action name="Focus" />
+        <action name="Raise" />
+      </mousebind>
+      <mousebind button="Right" action="Click">
+        <action name="Focus" />
+        <action name="Raise" />
+      </mousebind>
+      <mousebind direction="Up" action="Scroll">
+        <action name="Unshade" />
+        <action name="Focus" />
+      </mousebind>
+      <mousebind direction="Down" action="Scroll">
+        <action name="Unfocus" />
+        <action name="Shade" />
+      </mousebind>
+    </context>
+
+
+  </mouse>
+
+
+
+
+
+
+</labwc_config>

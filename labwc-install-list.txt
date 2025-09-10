@@ -1,0 +1,9 @@
+#assert Debian 13 Trixie
+
+sudo apt-get install -y labwc bemenu foot wlr-randr swayidle swaylock wlopm swaybg fuzzel
+
+sudo apt-get install -y nano pcmanfm firefox-esr git mercurial nano vis ncal geany geany-plugin-addons zip unzip
+
+
+
+

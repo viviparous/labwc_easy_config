@@ -1,0 +1,2 @@
+/usr/bin/swayidle -w timeout 300 'wlopm --off \*' resume 'wlopm --on \*' &
+/usr/bin/swaybg -c '336699' &

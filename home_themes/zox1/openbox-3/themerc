@@ -1,0 +1,123 @@
+!! zmod combining prior art with icons like OS X
+!! Onyx by Dana Jansens
+!! inspired by "Carbon" by p0ng, and the ever so popular Vista glass look
+
+!! Menu background
+menu.items.bg: flat gradient vertical
+menu.items.bg.color: #ecb94a
+menu.items.bg.colorTo: #ecb94a
+
+!! Menu text
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #565248
+
+!! Menu headers
+menu.title.bg: raised gradient vertical bevel1
+menu.title.bg.color: #e9a812
+menu.title.bg.colorTo: #edbf5f
+menu.title.bg.border.color: #000000
+menu.title.text.color: #000000
+
+!! Selected menu item
+menu.items.active.bg: flat border solid bevel1
+menu.items.active.bg.color: #ecb94a
+menu.items.active.text.color: #000000
+menu.items.active.bg.border.color: #e5a409
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+
+
+
+!! Titlebar
+window.active.title.bg: raised splitvertical gradient
+window.active.title.bg.color: #FFFF00
+window.active.title.bg.colorTo: #ffff99
+window.inactive.title.bg: gradient splitvertical gradient flat
+window.inactive.title.bg.color: #6495ED
+window.inactive.title.bg.colorTo: #4169E1
+
+!! Titlebar text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color: #000000
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #FFFFF0
+
+
+!! window buttons
+!! previous colours: #154350 #235679 #236d83 #38b3d6 #398dc6 #4ab5ff #707070 #87CEFA #898989 #b7fdef #c0c0c0 #FF8C00 
+!! revised colours:      #87e0dc #889499 #8ba5b3 #93ba84 #bfa4cd #c5e1e3 #cecce2 #f3adcd #f3c4c4
+!! OSX colours:      close, minimise (iconify), maximise (desk) _ Sunset Orange (#FF605C), Pastel Orange (#FFBD44) , Malachite (#00CA4E)
+!! OSX alt colours:  close #f95f57 , desk  , iconify #f9bc2d , disabled #dbdfe3 , toggled #24a83a
+!! new/old close: #FF605C #bfa4cd
+!! new/old desk: #00CA4E #87e0dc
+!! new/old iconify: #FFBD44 #f3adcd
+!! new/old disabled: #889499 #dbdfe3
+!! new/old toggled: #24a83a #c5e1e3
+
+window.*.button.*.bg: parentrelative
+window.*.button.*.pressed.bg: flat solid
+
+window.active.button.*.hover.bg: flat solid
+window.active.button.*.hover.bg: parentrelative
+window.active.button.*.hover.bg.color: #f3c4c4
+window.active.button.hover.image.color: #c5e1e3
+window.active.button.*.pressed.bg.color: #8ba5b3
+window.active.button.toggled.image.color: #c5e1e3
+window.active.button.disabled.image.color: #889499
+
+window.inactive.button.*.hover.bg: flat solid
+window.inactive.button.*.hover.bg: parentrelative
+window.inactive.button.hover.image.color: #c5e1e3
+window.inactive.button.toggled.image.color: #c5e1e3
+window.inactive.button.disabled.image.color: #889499
+
+window.active.button.close.unpressed.image.color: #FF605C
+window.active.button.close.pressed.image.color: #bfa4cd
+window.inactive.button.close.unpressed.image.color: #bfa4cd
+window.inactive.button.close.pressed.image.color: #bfa4cd
+
+window.active.button.max.unpressed.image.color: #93ba84
+window.active.button.max.pressed.image.color: #93ba84
+window.inactive.button.max.unpressed.image.color: #93ba84
+window.inactive.button.max.pressed.image.color: #93ba84
+
+window.active.button.iconify.unpressed.image.color: #FFBD44
+window.active.button.iconify.pressed.image.color: #f3adcd
+window.inactive.button.iconify.unpressed.image.color: #f3adcd
+window.inactive.button.iconify.pressed.image.color: #f3adcd
+
+window.active.button.shade.unpressed.image.color: #cecce2
+window.active.button.shade.pressed.image.color: #cecce2
+window.inactive.button.shade.unpressed.image.color: #cecce2
+window.inactive.button.shade.pressed.image.color: #cecce2
+
+window.active.button.desk.unpressed.image.color: #00CA4E
+window.active.button.desk.pressed.image.color: #87e0dc
+window.inactive.button.desk.unpressed.image.color: #87e0dc
+window.inactive.button.desk.pressed.image.color: #87e0dc
+
+!! Borders
+window.active.border.color: #ecb94a
+!! #181818
+window.inactive.border.color: #7fcdbb
+!! #404040
+window.inactive.title.separator.color: #eeeee6
+border.width: 3
+padding.width: 2
+window.handle.width: 0
+window.active.client.color:  #181818
+window.inactive.client.color:  #CACAB6
+window.client.padding.width: 1
+window.client.padding.height: 1
+menu.overlap: 0
+
+!! Font shadows
+menu.items.font:shadow=y:shadowtint=30
+
+!! On-screen displays
+osd.bg: gradient vertical flat
+osd.bg.color: #303030
+osd.bg.colorTo: #080808
