@@ -1,10 +1,11 @@
 # labwc_easy_config
 Easy config for labwc, includes defaults for usability.
 
-* ctrl+larrow , ctrl+rarrow to switch desktops
+* built-in openbox theme
+* ctrl+alt+larrow , ctrl+alt+rarrow to switch desktops
 * alt+tab for window list
 * alt-F3 to show bemenu
-* left-click for desktop menu; run terminal application "foot" ; run "firefox" ; run "pcmanfm"
+* left-click for desktop menu; entries for terminal application "foot" , browser "firefox" , file mangler "pcmanfm"
 * defined in labwc autostart: background colour, screen blanking
 
 ## Steps
