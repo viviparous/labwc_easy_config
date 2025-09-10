@@ -14,6 +14,10 @@ Clone the repository.
 
 Follow the instructions in the file "Readme-labwc-steps.txt". 
 
+## Note
+
+The commands in autostart may require that you exit labwc and restart. 
+
 ## Screenshot
 
 <img src="https://github.com/viviparous/labwc_easy_config/blob/main/screenshot2.png"/>
