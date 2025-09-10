@@ -1,5 +1,5 @@
 # labwc_easy_config
-Easy config for labwc, includes defaults for usability.
+Easy config for labwc, includes defaults for usability. Debian 13 (Trixie) is assumed.
 
 * built-in openbox theme
 * ctrl+alt+larrow , ctrl+alt+rarrow to switch desktops
