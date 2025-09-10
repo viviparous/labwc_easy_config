@@ -10,7 +10,7 @@ mkdir ~/.config
 mkdir ~/.themes
 
 #this config affords
-#ctrl+larrow , ctrl+rarrow to switch desktops
+#ctrl+alt+larrow , ctrl+alt+rarrow to switch desktops
 #alt+tab for window list
 #alt-F3 to show bemenu; run terminal application "foot" ; run "firefox" 
 #defined in autostart: background colour, screen blanking
