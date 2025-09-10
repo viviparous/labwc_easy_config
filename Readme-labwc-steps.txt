@@ -1,4 +1,4 @@
-#tar -kxvf topic_labwc_config.tar.gz
+#clone the repository, change to the directory
 cd topic_labwc_config/
 
 cat labwc-install-list.txt 
