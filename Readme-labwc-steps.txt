@@ -16,6 +16,7 @@ mkdir ~/.themes
 #defined in autostart: background colour, screen blanking
 
 cp -R  home_config/labwc/ ~/.config/
+cp -R  home_config/foot/ ~/.config/
 cp -R  home_themes/zox1/ ~/.themes/
 
 #run labwc
