@@ -22,3 +22,13 @@ cp -R  home_themes/zox1/ ~/.themes/
 #run labwc
 labwc
 
+#bash_aliases.txt contains the function "dirf" as a wrapper for pushd/popd/dirs
+dirf -h: 
+
+0 => list entries (cmdnum)
+3 => choose dir (cmdnum)
+5 => add curr dir (cmdnum)
+7 => add named dir (cmdnum,dir)
+9 => switch to dir num (cmdnum,num)
+
+

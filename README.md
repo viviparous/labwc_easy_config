@@ -7,6 +7,7 @@ Easy config for labwc, includes defaults for usability. Debian 13 (Trixie) is as
 * alt-F3 to show bemenu
 * left-click for desktop menu; entries for terminal application "foot" , browser "firefox" , file mangler "pcmanfm"
 * defined in labwc autostart: background colour, screen blanking
+* defined in bash_aliases.txt: gph to grep history; function dirf to manage pushd/popd/dirs commands
 
 ## Steps
 
