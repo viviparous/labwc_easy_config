@@ -1,5 +1,5 @@
-# to open in a Windows editor
-# \\wsl.localhost\Debian\home\lx01\.bash_aliases
+# Debian: ~/.bash_aliases
+# WSL: \\wsl.localhost\Debian\home\username\.bash_aliases
 
 # function definitions
 
